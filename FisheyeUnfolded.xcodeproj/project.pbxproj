@@ -15,6 +15,17 @@
 		2799F7E71E6155CA00F5B459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2799F7E51E6155CA00F5B459 /* LaunchScreen.storyboard */; };
 		2799F7F21E6155CA00F5B459 /* FisheyeUnfoldedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2799F7F11E6155CA00F5B459 /* FisheyeUnfoldedTests.m */; };
 		2799F7FD1E6155CA00F5B459 /* FisheyeUnfoldedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2799F7FC1E6155CA00F5B459 /* FisheyeUnfoldedUITests.m */; };
+		2799F80B1E6157F800F5B459 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799F80A1E6157F800F5B459 /* opencv2.framework */; };
+		27E9FB981E615DD300251136 /* Fisheye.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27E9FB971E615DD300251136 /* Fisheye.mm */; };
+		27E9FBA21E618A7900251136 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E9FB9C1E618A3400251136 /* CoreMedia.framework */; };
+		27E9FBA31E618A9000251136 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E9FBA01E618A4A00251136 /* AVFoundation.framework */; };
+		27E9FBAC1E6193D300251136 /* cat-cap3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBA81E6193D300251136 /* cat-cap3.png */; };
+		27E9FBAD1E6193D300251136 /* cat-cap4.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBA91E6193D300251136 /* cat-cap4.png */; };
+		27E9FBAE1E6193D300251136 /* cat-cap5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBAA1E6193D300251136 /* cat-cap5.png */; };
+		27E9FBAF1E6193D300251136 /* cat-cap6.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBAB1E6193D300251136 /* cat-cap6.png */; };
+		27E9FBB11E6193D700251136 /* cat-cap.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBB01E6193D700251136 /* cat-cap.png */; };
+		27E9FBB41E61942700251136 /* cat-cap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBB21E61942600251136 /* cat-cap1.png */; };
+		27E9FBB51E61942700251136 /* cat-cap2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E9FBB31E61942600251136 /* cat-cap2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,21 @@
 		2799F7F81E6155CA00F5B459 /* FisheyeUnfoldedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisheyeUnfoldedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2799F7FC1E6155CA00F5B459 /* FisheyeUnfoldedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FisheyeUnfoldedUITests.m; sourceTree = "<group>"; };
 		2799F7FE1E6155CA00F5B459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2799F80A1E6157F800F5B459 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		2799F80D1E61597B00F5B459 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		27E9FB961E615DD300251136 /* Fisheye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fisheye.h; sourceTree = "<group>"; };
+		27E9FB971E615DD300251136 /* Fisheye.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Fisheye.mm; sourceTree = "<group>"; };
+		27E9FB9A1E618A2C00251136 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		27E9FB9C1E618A3400251136 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		27E9FB9E1E618A4300251136 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		27E9FBA01E618A4A00251136 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27E9FBA81E6193D300251136 /* cat-cap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap3.png"; sourceTree = "<group>"; };
+		27E9FBA91E6193D300251136 /* cat-cap4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap4.png"; sourceTree = "<group>"; };
+		27E9FBAA1E6193D300251136 /* cat-cap5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap5.png"; sourceTree = "<group>"; };
+		27E9FBAB1E6193D300251136 /* cat-cap6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap6.png"; sourceTree = "<group>"; };
+		27E9FBB01E6193D700251136 /* cat-cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap.png"; sourceTree = "<group>"; };
+		27E9FBB21E61942600251136 /* cat-cap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap1.png"; sourceTree = "<group>"; };
+		27E9FBB31E61942600251136 /* cat-cap2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-cap2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E9FBA31E618A9000251136 /* AVFoundation.framework in Frameworks */,
+				27E9FBA21E618A7900251136 /* CoreMedia.framework in Frameworks */,
+				2799F80B1E6157F800F5B459 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				2799F7F01E6155CA00F5B459 /* FisheyeUnfoldedTests */,
 				2799F7FB1E6155CA00F5B459 /* FisheyeUnfoldedUITests */,
 				2799F7D51E6155CA00F5B459 /* Products */,
+				27E9FB991E618A2C00251136 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +131,24 @@
 		2799F7D61E6155CA00F5B459 /* FisheyeUnfolded */ = {
 			isa = PBXGroup;
 			children = (
+				27E9FBB21E61942600251136 /* cat-cap1.png */,
+				27E9FBB31E61942600251136 /* cat-cap2.png */,
+				27E9FBB01E6193D700251136 /* cat-cap.png */,
+				27E9FBA81E6193D300251136 /* cat-cap3.png */,
+				27E9FBA91E6193D300251136 /* cat-cap4.png */,
+				27E9FBAA1E6193D300251136 /* cat-cap5.png */,
+				27E9FBAB1E6193D300251136 /* cat-cap6.png */,
 				2799F7DA1E6155CA00F5B459 /* AppDelegate.h */,
 				2799F7DB1E6155CA00F5B459 /* AppDelegate.m */,
 				2799F7DD1E6155CA00F5B459 /* ViewController.h */,
 				2799F7DE1E6155CA00F5B459 /* ViewController.m */,
+				27E9FB961E615DD300251136 /* Fisheye.h */,
+				27E9FB971E615DD300251136 /* Fisheye.mm */,
 				2799F7E01E6155CA00F5B459 /* Main.storyboard */,
 				2799F7E31E6155CA00F5B459 /* Assets.xcassets */,
 				2799F7E51E6155CA00F5B459 /* LaunchScreen.storyboard */,
 				2799F7E81E6155CA00F5B459 /* Info.plist */,
+				2799F80A1E6157F800F5B459 /* opencv2.framework */,
 				2799F7D71E6155CA00F5B459 /* Supporting Files */,
 			);
 			path = FisheyeUnfolded;
@@ -117,6 +157,7 @@
 		2799F7D71E6155CA00F5B459 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2799F80D1E61597B00F5B459 /* PrefixHeader.pch */,
 				2799F7D81E6155CA00F5B459 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +179,17 @@
 				2799F7FE1E6155CA00F5B459 /* Info.plist */,
 			);
 			path = FisheyeUnfoldedUITests;
+			sourceTree = "<group>";
+		};
+		27E9FB991E618A2C00251136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E9FBA01E618A4A00251136 /* AVFoundation.framework */,
+				27E9FB9E1E618A4300251136 /* AssetsLibrary.framework */,
+				27E9FB9C1E618A3400251136 /* CoreMedia.framework */,
+				27E9FB9A1E618A2C00251136 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +259,7 @@
 				TargetAttributes = {
 					2799F7D31E6155CA00F5B459 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2A8Q768D96;
+						DevelopmentTeam = STE3QNE9MH;
 						ProvisioningStyle = Automatic;
 					};
 					2799F7EC1E6155CA00F5B459 = {
@@ -250,8 +302,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2799F7E71E6155CA00F5B459 /* LaunchScreen.storyboard in Resources */,
+				27E9FBAD1E6193D300251136 /* cat-cap4.png in Resources */,
+				27E9FBAF1E6193D300251136 /* cat-cap6.png in Resources */,
 				2799F7E41E6155CA00F5B459 /* Assets.xcassets in Resources */,
 				2799F7E21E6155CA00F5B459 /* Main.storyboard in Resources */,
+				27E9FBB41E61942700251136 /* cat-cap1.png in Resources */,
+				27E9FBB51E61942700251136 /* cat-cap2.png in Resources */,
+				27E9FBAC1E6193D300251136 /* cat-cap3.png in Resources */,
+				27E9FBAE1E6193D300251136 /* cat-cap5.png in Resources */,
+				27E9FBB11E6193D700251136 /* cat-cap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2799F7DF1E6155CA00F5B459 /* ViewController.m in Sources */,
+				27E9FB981E615DD300251136 /* Fisheye.mm in Sources */,
 				2799F7DC1E6155CA00F5B459 /* AppDelegate.m in Sources */,
 				2799F7D91E6155CA00F5B459 /* main.m in Sources */,
 			);
@@ -425,7 +485,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2A8Q768D96;
+				DEVELOPMENT_TEAM = STE3QNE9MH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FisheyeUnfolded",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FisheyeUnfolded/PrefixHeader.pch";
 				INFOPLIST_FILE = FisheyeUnfolded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lalmeng.FisheyeUnfolded;
@@ -437,7 +502,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2A8Q768D96;
+				DEVELOPMENT_TEAM = STE3QNE9MH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FisheyeUnfolded",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FisheyeUnfolded/PrefixHeader.pch";
 				INFOPLIST_FILE = FisheyeUnfolded/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lalmeng.FisheyeUnfolded;
@@ -514,6 +584,7 @@
 				2799F8031E6155CA00F5B459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2799F8041E6155CA00F5B459 /* Build configuration list for PBXNativeTarget "FisheyeUnfoldedTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +593,7 @@
 				2799F8061E6155CA00F5B459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2799F8071E6155CA00F5B459 /* Build configuration list for PBXNativeTarget "FisheyeUnfoldedUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +602,7 @@
 				2799F8091E6155CA00F5B459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
